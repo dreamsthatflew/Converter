@@ -10,6 +10,12 @@ ENV/
 *.egg-info/
 dist/
 build/
+.pythonlibs/
+
+# Node
+node_modules/
+.npm/
+package-lock.json
 
 # Replit
 .replit
@@ -21,3 +27,11 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Project specific
+server/uploads/
+server/converted/
+*.old
+
+# Build
+.vite/
