@@ -1,0 +1,11 @@
+node_modules
+.git
+.vscode
+dist
+/.idea
+*.log
+package-lock.json
+README.md
+replit.md
+start.sh
+server/
