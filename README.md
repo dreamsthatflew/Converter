@@ -1,77 +1,82 @@
-# modern-file-converter
-A modern web-based file converter supporting multiple formats: audio (MP3, WAV, FLAC), images (JPG, PNG, WEBP), and more
+# Professional File Converter
+
+A production-ready web-based file converter with real conversion capabilities and a modern, professional UI. Built with React, TypeScript, Flask, and industry-standard conversion tools.
 
 ## 🚀 Features
 
-- **Multiple Format Support**
-  - 🎵 Audio: MP3, WAV, FLAC, AAC, OGG, M4A
-  - 🖼️ Images: JPG, PNG, WEBP, GIF, BMP, SVG
-  - 🎥 Video: MP4, AVI, MOV, WMV, FLV, MKV
-  - 📄 Documents: PDF, DOCX, TXT, RTF, ODT
+### Real File Conversion
+- ✅ **Audio**: MP3, WAV, FLAC, AAC, OGG, M4A (powered by FFmpeg)
+- ✅ **Video**: MP4, AVI, MOV, WMV, FLV, MKV (powered by FFmpeg)
+- ✅ **Images**: JPG, PNG, WEBP, GIF, BMP, TIFF (powered by Pillow)
+- ✅ **Documents**: PDF, DOCX, TXT, RTF, ODT, HTML, MD (powered by Pandoc)
 
-- **Modern User Interface**
-  - Beautiful gradient design
-  - Fully responsive layout
-  - Smooth animations and transitions
-  - Intuitive category-based navigation
+### Professional UI/UX
+- 🎨 Modern dark theme design
+- 📱 Fully responsive layout
+- 🖱️ Drag & drop file upload
+- 📊 Real-time conversion progress
+- 📜 Conversion history with download links
+- ⚡ Fast and intuitive interface
 
-- **Easy to Use**
-  - Drag and drop file upload
-  - Click to browse files
-  - Real-time file information display
-  - Format selection by category
+### Technical Highlights
+- Built with React 19 + TypeScript
+- Flask REST API backend
+- FFmpeg for audio/video processing
+- Pillow for image manipulation
+- Automatic file cleanup
+- MIME type validation
+- 100MB file size limit
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React 19
+- TypeScript
+- Vite
+- Axios
+- Modern CSS3
+
+**Backend:**
+- Python 3.11
+- Flask
+- FFmpeg
+- Pillow (PIL)
+- Pandoc
+- Python Magic
 
 ## 📖 How to Use
 
-1. **Select File Type**: Click on the category tab (Audio, Image, Video, or Document)
-2. **Upload File**: Drag and drop your file or click the upload area to browse
-3. **Choose Format**: Select your desired output format from the dropdown
-4. **Convert**: Click the "Convert File" button to start the conversion
+1. **Select Category**: Choose Audio, Video, Image, or Document
+2. **Upload File**: Drag & drop or click to browse
+3. **Choose Format**: Select your desired output format
+4. **Convert**: Click "Convert File" button
+5. **Download**: Download your converted file from the history
 
-## 🌐 Demo
+## 🔒 Security
 
-You can view the live demo by opening `index.html` in your web browser or by visiting the GitHub Pages link.
+- File size limits (100MB max)
+- MIME type validation
+- Secure filename handling
+- Automatic cleanup (files deleted after 1 hour)
+- CORS protection
+- Input sanitization
 
+## 🌐 Running Locally
 
-## 🛠️ Technologies Used
+The application is configured to run on Replit with:
+- Frontend: http://localhost:5000
+- Backend API: http://localhost:8000
 
-- **HTML5**: Structure and semantic markup
-- **CSS3**: Modern styling with gradients, animations, and responsive design
-- **JavaScript (ES6+)**: Interactive functionality and file handling
-- **No external dependencies**: Pure vanilla JavaScript
-
-## 💻 Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/pixeldensity40ppi/modern-file-converter.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd modern-file-converter
-   ```
-
-3. Open `index.html` in your web browser:
-   - Double-click the file, or
-   - Use a local server (recommended for best experience)
-
-## 💡 Note
-
-This is a **frontend demo** that simulates file conversion. For actual file conversion functionality, you would need to:
-
-- Implement server-side processing using tools like FFmpeg, ImageMagick, etc.
-- Integrate with a file conversion API (e.g., CloudConvert, Convertio API)
-- Add backend logic to handle file uploads and conversions
+Both servers start automatically via the workflow.
 
 ## 📝 License
 
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
+MIT License - Open source and free to use!
 
 ## ⭐ Show Your Support
 
-Give a ⭐ if you like this project!
+If you find this project useful, please give it a star!
+
+---
+
+**Note**: This is a fully functional file converter with real conversion capabilities, not a demo or simulation.
