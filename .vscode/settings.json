@@ -1,0 +1,11 @@
+{
+  // Allow fetching schemas when the certificate doesn't match exactly (fixes
+  // "Hostname/IP does not match certificate's altnames" when downloading from
+  // json.schemastore.org in some environments). This is a workspace-local
+  // setting only and does not change user/global preferences.
+  "http.proxyStrictSSL": false,
+
+  // Keep schema downloads enabled but relaxed SSL will avoid the certificate
+  // mismatch error shown in the diagnostic.
+  "json.schemaDownload.enable": true
+}
